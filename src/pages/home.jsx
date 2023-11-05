@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { NavbarCom } from '../components/NavbarCom';
 import { PaperPlaneRight, AndroidLogo } from "@phosphor-icons/react";
 import pp from '../assets/pp.png'
+import axios from 'axios';
 
 function home() {
   const [message, setMessage] = useState("")
@@ -12,26 +13,31 @@ function home() {
   const [show, setShow] = useState('')
   const [showPicture, setShowPicture] = useState(false)
 
-  const handleSend = async() => {
-    setShow(message)
-    setShowPicture(true)
-    setLoading(true); 
-    const res = await fetch("https://agile-dove-jacket.cyclic.app/", {
-      method: "POST",
-      mode: "no-cors",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        message
-      })
-    })
-    const data = await res.json()
-    setResponse(data.response)
-    setLoading(false)
-    setMessage("")
-  }
+  const handleSend = async () => {
+    setShow(message);
+    setShowPicture(true);
+    setLoading(true);
   
+    try {
+      const res = await axios.post('http://127.0.0.1:3000/', {
+        message,
+      }, {
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*",
+        },
+      });
+  
+      const { data } = res;
+      setResponse(data.response);
+    } catch (err) {
+      console.log(err);
+    }
+  
+    setLoading(false);
+    setMessage("");
+  };
+
   return (
     <div  className="mx-auto max-w-screen-xl px-6 py-3">
      
