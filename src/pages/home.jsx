@@ -19,7 +19,7 @@ function home() {
     setLoading(true);
   
     try {
-      const res = await axios.post('http://127.0.0.1:3000/', {
+      const res = await axios.post('https://lively-stockings-dove.cyclic.app/', {
         message,
       }, {
         headers: {
