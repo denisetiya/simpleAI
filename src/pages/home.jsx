@@ -16,7 +16,7 @@ function home() {
     setShow(message)
     setShowPicture(true)
     setLoading(true); 
-    const res = await fetch("http://localhost:3000/", {
+    const res = await fetch("https://agile-dove-jacket.cyclic.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
