@@ -18,6 +18,7 @@ function home() {
     setLoading(true); 
     const res = await fetch("https://agile-dove-jacket.cyclic.app/", {
       method: "POST",
+      mode: "no-cors",
       headers: {
         "Content-Type": "application/json"
       },
