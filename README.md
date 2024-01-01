@@ -6,9 +6,9 @@ Welcome to the realm of conversational simplicity with my GitHub project – a S
 
 This project brings the power of React.js to create a user-friendly and interactive chat experience. Whether you're a developer looking to explore React.js or a chat enthusiast, this project aims to showcase the beauty of combining technology and conversation.
 
-## Explore the Chat
+## Node js API
 
-Dive into the chat experience by visiting the live page [here](https://simple-fp52c57fk-denisetiyas-projects.vercel.app/). Engage with the AI and witness the magic of React.js in action.
+If you when you see the api overflow, you can visit [here](https://github.com/denisetiya/ai-api). 
 
 ## Let's Chat!
 
