@@ -8,7 +8,7 @@ This project brings the power of React.js to create a user-friendly and interact
 
 ## Node js API
 
-If you when you see the api overflow, you can visit [here](https://github.com/denisetiya/ai-api). 
+If you want to see the api overflow, you can visit [here](https://github.com/denisetiya/ai-api). 
 
 ## Let's Chat!
 
