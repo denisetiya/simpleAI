@@ -1,17 +1,18 @@
-# Simple AI Chat using React.js
+# Express API for AI Chat
 
-Welcome to the realm of conversational simplicity with my GitHub project – a Simple AI Chat built using React.js! 🤖💬
+Welcome to the Express API for AI Chat – designed exclusively for testing purposes!
 
 ## Project Overview
 
-This project brings the power of React.js to create a user-friendly and interactive chat experience. Whether you're a developer looking to explore React.js or a chat enthusiast, this project aims to showcase the beauty of combining technology and conversation.
+This project serves as a testing ground for experimenting with an Express API integrated into an AI chat system. While it's primarily aimed at testing functionalities, it provides a glimpse into the backend workings of an AI chat application.
 
-## Node js API
+## Features
 
-If you want to see the api overflow, you can visit [here](https://github.com/denisetiya/ai-api). 
+- **Express.js Power**: Leverage the capabilities of Express.js for a robust and efficient API.
+- **AI Chat Integration**: Explore how the API interacts with an AI chat system.
+- **Testing Environment**: Perfect for testing and experimenting with different API functionalities.
 
-## Let's Chat!
+## Get Started
 
-Feel free to ask questions, share thoughts, or just have a friendly chat with the AI. Your interaction is not just with the code but with the potential of creating engaging user experiences.
+To explore and test the Express API, feel free to clone the repository and dive into the code. Use this environment to experiment with various API endpoints and witness the seamless integration with the AI chat.
 
-Let the conversation begin: [Simple AI Chat](https://simple-fp52c57fk-denisetiyas-projects.vercel.app/) 🚀🗨️
